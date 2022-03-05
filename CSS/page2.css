@@ -1,0 +1,92 @@
+.page2 {
+    margin: auto;
+    width: 93vmax;
+    height: 27vmax;
+    font: 500 1vmax "Gilroy";
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+
+}
+.cantain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 17vmax;
+    height: 22vmax;
+    padding: 2vmax, 1vmax;
+    border-radius: 1.8vmax;
+    color: #fff;
+
+}
+
+.cantain > img {
+    width: 8vmax;
+   
+    
+}
+.cantain > h3 {
+    font: 700 1.5vmax "Gilroy";
+    margin-top: 1.5vmax;
+    
+
+}
+.cantain > p {
+    font: 500 1vmax "Gilroy";
+    margin-top: 1.5vmax;
+    text-align: center;
+
+
+}
+.card1 {
+    background: linear-gradient(to left, #4bd3f1, #76dbf1);
+    box-shadow: 0 .8vmax 1vmax #8ce9feb7;
+
+} 
+.card2 {
+    background: linear-gradient(to left, #2c2c2c, #5f5f5f);
+    box-shadow: 0 .5vmax 1vmax #313131b7;
+
+} 
+.card3 {
+    background: linear-gradient(to left, #db444c, #f58f94);
+    box-shadow: 0 .5vmax 1vmax #FB5E66;
+
+} 
+.google4 {
+    
+    background: linear-gradient(to left, rgb(165, 11, 165), rgb(236, 95, 236));
+    box-shadow: 0 .5vmax 1vmax rgb(165, 11, 165);
+}
+.apple5 {
+    background: linear-gradient(to left,#ec9b17, #eebc59);
+    box-shadow: 0 .5vmax 1vmax #F8AA2E;
+}
+  
+/* ********************* */
+
+@media screen and (max-width: 600px) {
+
+    .page2 {
+        width: 42vmax;
+        height: 150vmax;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .cantain {
+        width: 26vmax;
+        height: 45vmax;
+        margin-top: 2vmax;
+        
+       
+    }
+      
+
+
+
+
+
+}
+

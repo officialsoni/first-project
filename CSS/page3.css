@@ -1,0 +1,101 @@
+.page3 {
+    margin: auto;
+    width: 93vmax;
+    height: 35vmax;
+    font: 500 1vmax "Gilroy";
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    
+
+}
+.image2 {
+    display: flex;
+    justify-content: space-between;
+    width: 40vmax;
+    height: 35vmax;
+   
+}
+.image2 > img {
+   width: 100vmax;
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   transform: translate(5vmax, -2vmax) scale(1.2);
+  
+
+}
+.cantainer {
+    width: 70vmax;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+   
+}
+.cantainer > h1 {
+    font-size: 3vmax ;
+
+
+}
+.cantainer > p {
+    font-size: 0.9vmax;
+    color: rgb(63, 62, 62);
+    margin-top: 1.5vmax;
+
+}
+
+/* ********************* */
+
+@media screen and (max-width: 600px) {
+
+.page3 {
+    width: 53vmax;
+    height: 60vmax;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    position: relative;
+    
+}
+
+.image2 > img{
+    width: 40vmax;
+    position: absolute;
+    opacity: 2;
+    z-index: -1;
+    top: 10%;
+    transform: translate(1vmax, -3vmax) scale(1.4);
+   
+   
+}
+.cantainer {
+    width: 42.2vmax;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+    
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

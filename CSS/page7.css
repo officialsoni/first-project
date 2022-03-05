@@ -1,0 +1,107 @@
+.page7 {
+    margin: auto;
+    width: 93vmax;
+    height: 25vmax;
+    font: 500 1vmax "Gilroy";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    
+
+}
+.cantent-page7 {
+    width: 20vmax;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+   
+
+}
+.cantent-page7 > img {
+    width: 10vmax;
+}
+.twit-image > img{
+    width: 2vmax;
+    height: 2vmax;
+    border-radius: 1.5vmax;
+    border: none;
+    background-color: rgb(255, 233, 233);
+    margin-top: 1.5vmax;
+    margin-right: 2mvax;
+   
+}
+.cantent-page7 > P {
+    font-size: 0.9vmax;
+    color: rgb(129, 127, 127);
+    margin-top: 1vmax;
+    line-height: 1.3vmax;
+
+}
+.box {
+    /* border: 2px solid black; */
+    width: 15vmax;
+    height: 13vmax;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.box > h1 {
+    font-size: 2vmax;
+}
+.box > p {
+    font-size: 0.9vmax;
+    color: rgb(129, 127, 127);
+    margin-top: 1vmax;
+    line-height: 0.8vmax;
+
+}
+@media screen and (max-width: 600px) {
+    .page7 {
+        width: 40vmax;
+        height: 100vmax;
+        flex-direction: column;
+        margin-top: 5vmax;
+        /* border: 2px solid black; */
+    }
+    .cantent-page7 {
+        width: 20vmax;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+       
+    
+    }
+    .cantent-page7 > img {
+        width: 22vmax;
+    }
+    .twit-image > img{
+        width: 3vmax;
+        height: 3vmax;
+        border-radius: 1.5vmax;
+        border: none;
+        background-color: rgb(255, 233, 233);
+        margin-top: 1.5vmax;
+        margin-right: 2mvax;
+       
+    }
+    .cantent-page7 > P {
+        font-size: 1.2vmax;
+        color: rgb(129, 127, 127);
+        margin-top: 1vmax;
+        line-height: 1.9vmax;
+    
+    }
+    .box > h1 {
+        font-size: 3vmax;
+    }
+    .box > p {
+        font-size: 1.2vmax;
+        color: rgb(129, 127, 127);
+        margin-top: 1vmax;
+        line-height: 0.8vmax;
+    
+    }
+
+}
